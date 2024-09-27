@@ -1,0 +1,429 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"1177 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"19 R:\FILE THUC HANH VDK\LCD_SERVO_DONE.X\lcd.c
+[v _lcd_busy lcd_busy `(uc  1 e 1 0 ]
+"104
+[v _lcd_put_nibble lcd_put_nibble `(v  1 e 1 0 ]
+"135
+[v _lcd_put_byte lcd_put_byte `(v  1 e 1 0 ]
+"168
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+"191
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+"225
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+"242
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"291
+[v _lcd_ShiftLeft lcd_ShiftLeft `(v  1 e 1 0 ]
+"305
+[v _lcd_ShiftRight lcd_ShiftRight `(v  1 e 1 0 ]
+"369
+[v _putch putch `(v  1 e 1 0 ]
+"40 R:\FILE THUC HANH VDK\LCD_SERVO_DONE.X\TEST_LCD_SERVO.c
+[v _delayTimer0 delayTimer0 `(v  1 e 1 0 ]
+"53
+[v _servo_xoay_P servo_xoay_P `(v  1 e 1 0 ]
+"59
+[v _servo_xoay_G servo_xoay_G `(v  1 e 1 0 ]
+"67
+[v _servo_xoay_P2 servo_xoay_P2 `(v  1 e 1 0 ]
+"73
+[v _servo_xoay_G2 servo_xoay_G2 `(v  1 e 1 0 ]
+"81
+[v _servo_xoay_P3 servo_xoay_P3 `(v  1 e 1 0 ]
+"87
+[v _servo_xoay_G3 servo_xoay_G3 `(v  1 e 1 0 ]
+"94
+[v _SP_CAO SP_CAO `(v  1 e 1 0 ]
+"107
+[v _SP_THAP SP_THAP `(v  1 e 1 0 ]
+"120
+[v _SP_VUA SP_VUA `(v  1 e 1 0 ]
+"133
+[v _PIC_Config PIC_Config `(v  1 e 1 0 ]
+"147
+[v _main main `(v  1 e 1 0 ]
+"59 C:/Users/ADMIN/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S55 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"245
+[u S64 . 1 `S55 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES64  1 e 1 @6 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S23 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"482
+[s S32 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S37 . 1 `S23 1 . 1 0 `S32 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES37  1 e 1 @11 ]
+[s S91 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1366
+[s S98 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S102 . 1 `S91 1 . 1 0 `S98 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES102  1 e 1 @129 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"4137
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"4140
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"4143
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"4185
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"4188
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"4191
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"4197
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4200
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4203
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4206
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"4476
+[v _TRISD0 TRISD0 `VEb  1 e 0 @1088 ]
+"4479
+[v _TRISD1 TRISD1 `VEb  1 e 0 @1089 ]
+"4482
+[v _TRISD2 TRISD2 `VEb  1 e 0 @1090 ]
+"4488
+[v _TRISD4 TRISD4 `VEb  1 e 0 @1092 ]
+"4491
+[v _TRISD5 TRISD5 `VEb  1 e 0 @1093 ]
+"4494
+[v _TRISD6 TRISD6 `VEb  1 e 0 @1094 ]
+"4497
+[v _TRISD7 TRISD7 `VEb  1 e 0 @1095 ]
+"153 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"28 R:\FILE THUC HANH VDK\LCD_SERVO_DONE.X\TEST_LCD_SERVO.c
+[v _sp_cao sp_cao `uc  1 e 1 0 ]
+"29
+[v _sp_thap sp_thap `uc  1 e 1 0 ]
+"30
+[v _sp_vua sp_vua `uc  1 e 1 0 ]
+"31
+[v _tong tong `uc  1 e 1 0 ]
+"33
+[v _flag_cao flag_cao `uc  1 e 1 0 ]
+"34
+[v _flag_thap flag_thap `uc  1 e 1 0 ]
+"35
+[v _flag_vua flag_vua `uc  1 e 1 0 ]
+"36
+[v _flag_tong flag_tong `uc  1 e 1 0 ]
+"38
+[v _trai_tim trai_tim `DC[8]uc  1 e 8 0 ]
+"147
+[v _main main `(v  1 e 1 0 ]
+{
+"157
+[v main@i i `i  1 a 2 58 ]
+"152
+[v main@buffer buffer `[16]uc  1 a 16 42 ]
+"204
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@s s `*.4uc  1 a 1 wreg ]
+[u S742 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+"13
+[s S745 _IO_FILE 11 `S742 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S745  1 a 11 29 ]
+"12
+[v sprintf@ap ap `[1]*.4v  1 a 1 27 ]
+"9
+[v sprintf@s s `*.4uc  1 a 1 wreg ]
+[v sprintf@fmt fmt `*.24DCuc  1 p 1 24 ]
+"15
+[v sprintf@s s `*.4uc  1 a 1 28 ]
+"23
+} 0
+"1817 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S777 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.4S777  1 a 1 wreg ]
+"1820
+[v vfprintf@cfmt cfmt `*.24uc  1 a 1 23 ]
+"1817
+[v vfprintf@fp fp `*.4S777  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.24DCuc  1 p 1 20 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 21 ]
+"1822
+"1817
+[v vfprintf@fp fp `*.4S777  1 a 1 22 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S777 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.4S777  1 a 1 wreg ]
+[u S790 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S790  1 a 4 15 ]
+"1179
+[v vfpfcnvrt@c c `uc  1 a 1 19 ]
+[v vfpfcnvrt@cp cp `*.24uc  1 a 1 14 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 12 ]
+"1177
+[v vfpfcnvrt@fp fp `*.4S777  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.24uc  1 p 1 8 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 9 ]
+"1201
+"1177
+[v vfpfcnvrt@fp fp `*.4S777  1 a 1 13 ]
+"1814
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S742 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S745 _IO_FILE 11 `S742 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.4S745  1 p 1 2 ]
+"24
+} 0
+"369 R:\FILE THUC HANH VDK\LCD_SERVO_DONE.X\lcd.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@c c `uc  1 a 1 wreg ]
+[v putch@c c `uc  1 a 1 wreg ]
+"371
+[v putch@c c `uc  1 a 1 12 ]
+"372
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 6 ]
+"4
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"225 R:\FILE THUC HANH VDK\LCD_SERVO_DONE.X\lcd.c
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v lcd_puts@s s `*.26DCuc  1 p 2 12 ]
+"234
+} 0
+"191
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+{
+[v lcd_putc@c c `uc  1 a 1 wreg ]
+[v lcd_putc@c c `uc  1 a 1 wreg ]
+[v lcd_putc@c c `uc  1 a 1 11 ]
+"217
+} 0
+"168
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+{
+[v lcd_gotoxy@col col `uc  1 a 1 wreg ]
+"170
+[v lcd_gotoxy@address address `uc  1 a 1 7 ]
+"168
+[v lcd_gotoxy@col col `uc  1 a 1 wreg ]
+[v lcd_gotoxy@row row `uc  1 p 1 6 ]
+"172
+[v lcd_gotoxy@col col `uc  1 a 1 8 ]
+"183
+} 0
+"242
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"283
+} 0
+"135
+[v _lcd_put_byte lcd_put_byte `(v  1 e 1 0 ]
+{
+[v lcd_put_byte@rs rs `uc  1 a 1 wreg ]
+[v lcd_put_byte@rs rs `uc  1 a 1 wreg ]
+[v lcd_put_byte@b b `uc  1 p 1 3 ]
+"140
+[v lcd_put_byte@rs rs `uc  1 a 1 5 ]
+"159
+} 0
+"104
+[v _lcd_put_nibble lcd_put_nibble `(v  1 e 1 0 ]
+{
+[v lcd_put_nibble@b b `uc  1 a 1 wreg ]
+[s S231 . 1 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+"107
+[u S240 _BYTE_VAL 1 `uc 1 Val 1 0 `S231 1 bits 1 0 ]
+[v lcd_put_nibble@temp temp `S240  1 a 1 2 ]
+"104
+[v lcd_put_nibble@b b `uc  1 a 1 wreg ]
+"110
+[v lcd_put_nibble@b b `uc  1 a 1 1 ]
+"126
+} 0
+"19
+[v _lcd_busy lcd_busy `(uc  1 e 1 0 ]
+{
+"22
+[v lcd_busy@busy busy `uc  1 a 1 1 ]
+"45
+} 0
+"120 R:\FILE THUC HANH VDK\LCD_SERVO_DONE.X\TEST_LCD_SERVO.c
+[v _SP_VUA SP_VUA `(v  1 e 1 0 ]
+{
+"132
+} 0
+"81
+[v _servo_xoay_P3 servo_xoay_P3 `(v  1 e 1 0 ]
+{
+"86
+} 0
+"87
+[v _servo_xoay_G3 servo_xoay_G3 `(v  1 e 1 0 ]
+{
+"92
+} 0
+"107
+[v _SP_THAP SP_THAP `(v  1 e 1 0 ]
+{
+"119
+} 0
+"67
+[v _servo_xoay_P2 servo_xoay_P2 `(v  1 e 1 0 ]
+{
+"72
+} 0
+"73
+[v _servo_xoay_G2 servo_xoay_G2 `(v  1 e 1 0 ]
+{
+"78
+} 0
+"94
+[v _SP_CAO SP_CAO `(v  1 e 1 0 ]
+{
+"106
+} 0
+"53
+[v _servo_xoay_P servo_xoay_P `(v  1 e 1 0 ]
+{
+"58
+} 0
+"59
+[v _servo_xoay_G servo_xoay_G `(v  1 e 1 0 ]
+{
+"64
+} 0
+"40
+[v _delayTimer0 delayTimer0 `(v  1 e 1 0 ]
+{
+"43
+[v delayTimer0@t t `i  1 a 2 0 ]
+"50
+} 0
+"133
+[v _PIC_Config PIC_Config `(v  1 e 1 0 ]
+{
+"145
+} 0
